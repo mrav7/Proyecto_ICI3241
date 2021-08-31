@@ -1,5 +1,6 @@
 package ici3241.proyecto;
 import java.io.*;
+
 import javax.swing.JOptionPane;
 
 public class LectorCSV {
@@ -20,7 +21,8 @@ public class LectorCSV {
         }
         catch (Exception e){
             JOptionPane.showMessageDialog(null, e);
-        }
+        }      
+        
     }
     
 }
